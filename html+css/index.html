@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           #p{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 70px 90px 90px 90px 90px 200px 300px 100px 100px;
+            grid-gap:10px;
+            grid-template-areas: "nav nav nav nav" "section section section section"
+             "section section section section"  "section section section section"
+              "section section section section"
+              "main main main main" "main main main main" 
+             "footer footer footer footer";
+
+           }
+           nav{
+            grid-area: nav;
+            display: flex;
+            justify-content:space-around ;
+            
+        }
+        section{
+            grid-area: section;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: space-between;
+        }
+        .a2{
+            display: flex;
+            justify-content:space-around;
+            padding: 20px;
+        }
+        .a3{
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        main{
+            grid-area: main;
+            justify-content:space-around ;
+            border: 200px;
+            background-color:gainsboro;
+        }
+        .p2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;}
+.p1 img{
+
+text-align: center;
+box-shadow: 5px;
+border-radius: 10px;
+display: block;
+
+}   
+    </style>
+</head>
+<body>
+    <div class="p">
+        <nav>
+            
+            <img src="1.png" 
+            width="100px" height="50px">
+            <label>
+            <input type="text" placeholder="⌕ Search for Movies,Plays,Sports" 
+            style="border-radius: 5px; width: 300px; height: 30px;"></label>
+            
+            <div class="a1">
+             <select name="" id="">
+                <option>Banglore</option>
+                <option>Shimoga</option>
+                <option>Bhadravati</option>
+             </select>
+            
+             <button style="background-color: red; color: white; border-radius: 5px;">Sign in</button>
+            </div>
+            </nav>
+            <section>
+                <div class="a2">
+                <h4>Movies</h4>
+                <h4>Stream</h4>
+                <h4>Events</h4> 
+                <h4>Plays</h4>
+                <h4>Sports</h4>
+                <h4>Activities</h4>
+            </div>
+            <div class="a3">
+                <h4>LiveYourShow</h4>
+                <h4>Corporates</h4>
+                <h4>Offers</h4>
+                <h4>Gift Cards</h4>
+            </div>
+            </section>
+            <main>
+                <div>
+                <img src="img.png" alt="" width="1500px" height="200px  " >
+            </div>
+            <div>
+                <h2>Recommended Movies</h2>
+
+            </div>
+            <div class="p2">
+                <div class="p1">
+                    <img src="img2.png" alt="" width="250px" height="300px">
+                    <figcaption style="text-align: center;"><b>Tumko meri kasam</b></figcaption>
+                </div>
+                <div class="p1">
+                    <img src="img3.png" alt="" width="250px" height="300px">
+                    <figcaption style="text-align: center;"><b>Court</b></figcaption>
+                </div>
+                <div class="p1">
+                    <img src="img4.png" alt="" width="250px" height="300px">
+                    <figcaption style="text-align: center;"><b>Snow white</b></figcaption>
+                </div>
+                <div class="p1">
+                    <img src="img5.png" alt="" width="250px" height="300px">
+                    <figcaption style="text-align: center;"><b>chava</b></figcaption>
+                </div>
+                <div class="p1">
+                    <img src="img6.png" alt="" width="250px" height="300px">
+                    <figcaption style="text-align: center;"><b>Empuraan</b></figcaption>
+                </div>
+            </div>
+            </main>
+    </div>
+</body>
+</html>
