@@ -1,0 +1,203 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #p{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            grid-template-rows: 70px 90px 90px 90px 90px 200px 300px 100px 100px;
+            grid-gap:10px;
+            grid-template-areas: "nav nav nav nav" "section section section section"
+             "section section section section"  "section section section section"
+              "section section section section"
+              "main main main main" "main main main main" 
+             "footer footer footer footer";
+            
+        }
+        nav{
+            grid-area: nav;
+            display: flex;
+            justify-content:space-around ;
+            
+        }
+        section{
+            grid-area: section;
+            background-color: whitesmoke;
+            display: flex;
+        }
+        main{
+            grid-area: main;
+            justify-content:space-around ;
+            border: 200px;
+            background-color: rgb(241, 238, 238);
+        }
+            
+        
+        
+        
+           
+        footer{
+            grid-area: footer;
+        }
+       
+    
+        .c{
+            text-align: center;
+            padding: 20px;
+            background-color: #6a0dad;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            width: 920px;
+        }
+        .b{
+            text-align: center;
+            padding: 20px;
+            background-color: whitesmoke;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+            width:400px ;  
+        }
+        #p2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+        }
+        .p3{
+    border-radius: 15px;
+    width:200px;
+    border: 2px solid blueviolet;
+    border-width: 10px; 
+
+}
+ .p3 img{
+
+text-align: center;
+box-shadow: 5px;
+
+display: block;
+
+}
+#p4{
+    display: flex;
+    justify-content: space-around;
+
+        }
+        .p5{
+    border-radius: 15px;
+    width:200px;
+    border: 2px solid blueviolet;
+    border-width: 10px; 
+
+}
+ .p5 img{
+
+text-align: center;
+box-shadow: 5px;
+
+display: block;
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="p">
+        <nav>
+            <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\m.png" 
+            width="100px" height="100px">
+            <h4>MEN</h4>
+            <h4>WOMEN</h4>
+            <h4>KIDS</h4>
+            <h4>HOME & LIVING</h4>
+            <h4>BEAUTY</h4>
+            <h4>STUDIO<sup style="color:purple;">NEW</sup></h4>
+            <input type="text" placeholder="⌕ Search for products,brands and more" 
+            style="border-radius: 5px; width: 300px; height: 30px; color: white;
+             border-color: white;" >
+
+             <div>
+             <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\Screenshot 2025-03-04 175203.png"
+             width="30px" height="30px">
+             <figcaption style="text-align: center;"><b>Profile</b></figcaption></div>
+             <div>
+             <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\Screenshot 2025-03-04 175213.png"
+             width="30px" height="30px">
+             <figcaption style="text-align: center;"><b>Wishlist</b></figcaption></div>
+            <div>
+             <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\Screenshot 2025-03-04 175220.png"
+             width="30px" height="30px">
+             <figcaption style="text-align: center;"><b>Bag</b></figcaption>
+            </div>
+             
+        </nav>
+        <section>
+            <div class="c"><h1>FLAT <sup>₹</sup>500 OFF</h1></div>
+  
+    <div class="b">On Your 1<sup>st </sup>Purchase Via <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\Screenshot 2025-03-04 183358.png"
+         width="30px" height="30px">
+        App</div>
+        </section>
+        <main>
+           
+            <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\Screenshot 2025-03-04 184440.png" 
+            width="1500px" height="300px">               
+            <div id="p1" style="text-align: center;"><h1 style="font-size: 50px; color: red;">SHOP BY CATEGORY</h1></div>
+            <div id="p2">
+        <div class="p3">
+<img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\ethnic.jpeg"
+ width="200px" height="200px">
+<figcaption style="text-align:center;  background-color:blueviolet; color:white">Ethnic</figcaption></div>
+<div class="p3">
+<img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\casual.jpeg"
+ width="200px" height="200px">
+<figcaption style="text-align:center;  background-color:blueviolet; color:white">Casual</figcaption></div>
+<div class="p3">
+    <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\sports.jpeg"
+     width="200px" height="200px">
+    <figcaption style="text-align:center;  background-color:blueviolet; color:white">Sports</figcaption></div>
+    <div class="p3">
+    <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\makeup.jpeg"
+     width="200px" height="200px">
+    <figcaption style="text-align:center ; background-color:blueviolet; color:white">Makeup</figcaption></div>
+    <div class="p3">
+    <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\watches.jpeg"
+     width="200px" height="200px">
+    <figcaption style="text-align:center ;  background-color:blueviolet; color:white">Watches</figcaption></div>
+          </div>
+          <div id="p4">
+            <div class="p5">
+    <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\image1.jpeg"
+     width="200px" height="200px">
+    <figcaption style="text-align:center;  background-color:blueviolet; color:white">Mobiles</figcaption></div>
+    <div class="p5">
+    <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\image2.jpeg"
+     width="200px" height="200px">
+    <figcaption style="text-align:center;  background-color:blueviolet; color:white">Skin CAre</figcaption></div>
+    <div class="p5">
+        <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\image3.jpeg"
+         width="200px" height="200px">
+        <figcaption style="text-align:center;  background-color:blueviolet; color:white">Furniture</figcaption></div>
+        <div class="p5">
+        <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\image6.jpeg"
+         width="200px" height="200px">
+        <figcaption style="text-align:center ; background-color:blueviolet; color:white">Slipper</figcaption></div>
+        <div class="p5">
+        <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\image9.jpeg"
+         width="200px" height="200px">
+        <figcaption style="text-align:center ;  background-color:blueviolet; color:white">Lehenga</figcaption></div>
+              </div>
+
+        </main>
+        <footer>
+           <img src="C:\Users\simra\OneDrive\Documents\FSD\Folder1.html\Folder2.html\Screenshot 2025-03-04 200234.png"
+            width="1500px" height="500px"> 
+        </footer>
+    </div>
+</body>
+</html>
